@@ -40,7 +40,6 @@ public class TestServiceImpl implements TestService {
         deleteTest(getTest(id));
     }
 
-
     @Override
     public List<Test> getAllTest() {
         return testDao.getAllTests();

@@ -1,8 +1,6 @@
 package mateAcademy.patients;
 
-import lombok.EqualsAndHashCode;
 import mateAcademy.test.Test;
-
 import javax.persistence.*;
 import java.time.LocalDate;
 import java.util.HashSet;

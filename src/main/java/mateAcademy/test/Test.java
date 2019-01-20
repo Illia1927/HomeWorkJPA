@@ -1,13 +1,11 @@
 package mateAcademy.test;
 
-import lombok.EqualsAndHashCode;
 import mateAcademy.device.Device;
 import mateAcademy.patients.Patient;
 
 import javax.persistence.*;
 import java.time.LocalDate;
 
-@EqualsAndHashCode(exclude = {"name"})
 @Entity(name = "Test")
 @Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
 public abstract class Test {
@@ -118,4 +116,3 @@ public abstract class Test {
                 '}';
     }
 }
-

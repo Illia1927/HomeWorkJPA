@@ -54,6 +54,4 @@ public class DeviceServiceImpl implements DeviceService {
         patient.addTest(test);
         addDevice(test.getDevice());
     }
-
-
 }

@@ -11,5 +11,4 @@ public interface GrudDao<T, ID extends Serializable> {
     void update(T entity);
 
     void delete(T entity);
-
 }
