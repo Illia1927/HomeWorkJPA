@@ -29,7 +29,7 @@ public class Main {
                 .birthsDate(LocalDate.of(1998, 3, 4))
                 .build();
 
-        patientService.addPatient(patientOne);
+//        patientService.addPatient(patientOne);
 
         Test testOne = Test.getTest(Test.typeOfTest.SKIN);
         Device ultraSonic = new UltrasonicDevice();
@@ -47,7 +47,7 @@ public class Main {
                 .birthsDate(LocalDate.of(2000, 8, 22))
                 .build();
 
-        patientService.addPatient(patientTwo);
+//        patientService.addPatient(patientTwo);
 
         Test testTwo = Test.getTest(Test.typeOfTest.BLOOD);
         Device photometr = new Photometer();
@@ -59,5 +59,6 @@ public class Main {
         System.out.println("Test number two for patient Maria : " + testTwo.getResult());
 
         System.out.println(testService.getAllTest());
+
     }
 }
