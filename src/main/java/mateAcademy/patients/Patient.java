@@ -79,13 +79,9 @@ public class Patient {
 
     @Override
     public String toString() {
-        return "Patient{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", surName='" + surName + '\'' +
-                ", birthsDate=" + birthsDate +
-                ", tests=" + tests +
-                '}';
+        return  "Name : " + name +
+                ", Sur name : " + surName +
+                ", Date of birth : " + birthsDate;
     }
 
     public void addTest(Test test) {

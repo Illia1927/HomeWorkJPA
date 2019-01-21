@@ -38,7 +38,7 @@ public class Main {
         testOne.setDevice(ultraSonic);
         deviceService.runTest(testOne, patientOne);
 
-        System.out.println("Test number one for patient Illia : " + testOne.getResult());
+        System.out.println("Test number one for patient : [" + patientOne.toString() + "] Result of test : " + testOne.getResult());
 
         Patient patientTwo = Patient
                 .builder()
@@ -56,7 +56,7 @@ public class Main {
         testTwo.setDevice(photometr);
         deviceService.runTest(testTwo, patientTwo);
 
-        System.out.println("Test number two for patient Maria : " + testTwo.getResult());
+        System.out.println("Test number two for patient : [" + patientTwo.toString() + "] Result of test : " + testTwo.getResult());
 
         System.out.println(testService.getAllTest());
 
