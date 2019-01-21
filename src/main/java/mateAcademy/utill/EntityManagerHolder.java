@@ -1,4 +1,4 @@
-package mateAcademy;
+package mateAcademy.utill;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
