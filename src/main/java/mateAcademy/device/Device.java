@@ -2,6 +2,7 @@ package mateAcademy.device;
 
 import mateAcademy.accessory.Accessory;
 import mateAcademy.test.Test;
+
 import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
@@ -17,7 +18,6 @@ public abstract class Device {
     private String name;
     @Column(name = "cost")
     private Double cost;
-
     @OneToMany(mappedBy = "device", fetch = FetchType.EAGER, cascade = CascadeType.ALL)
     private Set<Accessory> accessories;
     @OneToMany(mappedBy = "device", fetch = FetchType.EAGER, cascade = CascadeType.ALL)
