@@ -104,4 +104,12 @@ public abstract class Test {
         SKIN
     }
 
+    @Override
+    public String toString() {
+        return "Test{" +
+                ", name='" + name + '\'' +
+                ", cost=" + cost +
+                ", dateOfMade=" + dateOfMade +
+                '}';
+    }
 }
