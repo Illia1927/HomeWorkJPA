@@ -17,7 +17,7 @@ public class TestServiceImpl implements TestService {
 
     @Override
     public Test addTest(Test test) {
-        return testDao.made(test);
+        return testDao.create(test);
     }
 
     @Override

@@ -40,7 +40,6 @@ public abstract class Accessory {
     @Override
     public String toString() {
         return "accessory{" +
-                "id=" + id +
                 ", device=" + device +
                 '}';
     }

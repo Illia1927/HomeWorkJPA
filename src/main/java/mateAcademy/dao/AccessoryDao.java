@@ -2,5 +2,5 @@ package mateAcademy.dao;
 
 import mateAcademy.accessory.Accessory;
 
-public interface AccessoryDao extends GrudDao<Accessory, Long> {
+public interface AccessoryDao extends CrudDao<Accessory, Long> {
 }

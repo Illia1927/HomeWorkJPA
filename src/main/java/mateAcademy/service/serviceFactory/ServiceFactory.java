@@ -4,7 +4,7 @@ import mateAcademy.dao.impl.DeviceDaoImpl;
 import mateAcademy.dao.impl.PatientDaoImpl;
 import mateAcademy.dao.impl.TestDaoImpl;
 import mateAcademy.device.Device;
-import mateAcademy.utill.EntityManagerHolder;
+import mateAcademy.holder.EntityManagerHolder;
 import mateAcademy.patients.Patient;
 import mateAcademy.service.DeviceService;
 import mateAcademy.service.impl.DeviceServiceImpl;

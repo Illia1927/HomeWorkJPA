@@ -13,7 +13,7 @@ public class PatientServiceImpl implements PatientService {
 
     @Override
     public Patient addPatient(Patient patient) {
-        return patientDao.made(patient);
+        return patientDao.create(patient);
     }
 
     @Override

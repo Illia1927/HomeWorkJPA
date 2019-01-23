@@ -18,7 +18,7 @@ public class DeviceServiceImpl implements DeviceService {
 
     @Override
     public Device addDevice(Device device) {
-        return deviceDao.made(device);
+        return deviceDao.create(device);
     }
 
     @Override

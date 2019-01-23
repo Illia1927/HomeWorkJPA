@@ -9,7 +9,6 @@ import java.time.LocalDate;
 import java.util.List;
 
 public class TestDaoImpl extends AbstractDao<Test, Long> implements TestDao {
-
     public TestDaoImpl(EntityManager entityManager, Class<Test> testClass) {
         super(entityManager, testClass);
     }

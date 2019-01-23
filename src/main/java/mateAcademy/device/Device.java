@@ -27,7 +27,7 @@ public abstract class Device {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
@@ -66,7 +66,6 @@ public abstract class Device {
     @Override
     public String toString() {
         return "device{" +
-                "id=" + id +
                 ", name='" + name + '\'' +
                 ", cost=" + cost +
                 '}';

@@ -3,7 +3,7 @@ package mateAcademy.dao;
 import javax.persistence.EntityManager;
 import java.io.Serializable;
 
-public abstract class AbstractDao<T, ID extends Serializable> implements GrudDao<T, ID> {
+public abstract class AbstractDao<T, ID extends Serializable> implements CrudDao<T, ID> {
     protected final EntityManager entityManager;
     protected final Class<T> clazz;
 

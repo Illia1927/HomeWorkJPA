@@ -5,7 +5,7 @@ import mateAcademy.test.Test;
 import java.time.LocalDate;
 import java.util.List;
 
-public interface TestDao extends GrudDao<Test, Long> {
+public interface TestDao extends CrudDao<Test, Long> {
 
     List<Test> getAllTests();
 

@@ -89,7 +89,7 @@ public abstract class Test {
 
     public abstract void setResult(Double result);
 
-    public static Test getTest(typeOfTest testType) {
+    public static Test getTest(TypeOfTest testType) {
         switch (testType) {
             case SKIN:
                 return new SkinTest();
@@ -99,7 +99,7 @@ public abstract class Test {
         return null;
     }
 
-    public static enum typeOfTest {
+    public static enum TypeOfTest {
         BLOOD,
         SKIN
     }

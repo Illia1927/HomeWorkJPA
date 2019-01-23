@@ -2,9 +2,9 @@ package mateAcademy.dao;
 
 import java.io.Serializable;
 
-public interface GrudDao<T, ID extends Serializable> {
+public interface CrudDao<T, ID extends Serializable> {
 
-    T made(T entity);
+    T create(T entity);
 
     T findById(ID id);
 
