@@ -3,7 +3,16 @@ package mateAcademy.device;
 import mateAcademy.accessory.Accessory;
 import mateAcademy.test.Test;
 
-import javax.persistence.*;
+import javax.persistence.CascadeType;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Inheritance;
+import javax.persistence.InheritanceType;
+import javax.persistence.OneToMany;
 import java.util.HashSet;
 import java.util.Set;
 
